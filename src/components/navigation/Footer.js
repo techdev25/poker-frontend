@@ -1,9 +1,7 @@
-import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
-import Text from '../typography/Text';
-import ColoredText from '../typography/ColoredText';
-import contentContext from '../../context/content/contentContext';
+import React, { useContext } from "react";
+import styled from "styled-components";
+import Text from "../typography/Text";
+import contentContext from "../../context/content/contentContext";
 
 const StyledFooter = styled.footer`
   text-align: center;
@@ -18,22 +16,22 @@ const Footer = ({ className, setLang, staticPages }) => {
   return (
     <StyledFooter className={className}>
       <Text textAlign="center" fontSize="0.9rem">
-        {getLocalizedString('footer-lang_selection_txt')}:{'  '}
+        {getLocalizedString("footer-lang_selection_txt")}:{"  "}
         <a
           href="!"
           onClick={(e) => {
             e.preventDefault();
-            setLang('en');
+            setLang("en");
           }}
         >
           EN
-        </a>{' '}
-        |{' '}
+        </a>{" "}
+        |{" "}
         <a
           href="!"
           onClick={(e) => {
             e.preventDefault();
-            setLang('de');
+            setLang("de");
           }}
         >
           DE
