@@ -40,5 +40,5 @@
     ]
   },
   "devDependencies": {},
-  "proxy": "http://localhost:5000"
+  "proxy": "https://ed64-118-8-82-157.ngrok-free.app/"
 }
