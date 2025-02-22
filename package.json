@@ -39,6 +39,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
-  "proxy": "https://ed64-118-8-82-157.ngrok-free.app/"
+  "devDependencies": {}
 }
