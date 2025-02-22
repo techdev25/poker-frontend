@@ -13,7 +13,7 @@ const cookieBannerRoot = document.getElementById("cookie-banner");
 const loadingScreen = document.getElementById("loading-screen");
 
 // Axios.defaults.baseURL = "http://localhost:5000";
-Axios.defaults.baseURL = "https://2c35-118-8-82-157.ngrok-free.app/";
+Axios.defaults.baseURL = "https://f937-118-8-82-157.ngrok-free.app/";
 Axios.defaults.headers.common["Content-type"] = "application/json";
 Axios.defaults.headers.common["ngrok-skip-browser-warning"] = true;
 
